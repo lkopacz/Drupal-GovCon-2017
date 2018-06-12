@@ -117,3 +117,5 @@ menu_link_content: 0.0.0
 pathauto: 0.0.0
 xmlsitemap: 0.0.0
 views: 0.0.0
+kint: 1.2.0
+entityqueue: 1.0.0-alpha7

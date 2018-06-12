@@ -1,0 +1,3 @@
+{% for item in items %}
+  <p class="call-to-action__text-details">{{ item.content['#markup']|render|striptags }}</p>
+{% endfor %}

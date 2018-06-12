@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dea22232b50c54d6eaf9621681e1af5",
+    "content-hash": "6287132d5450d0e9c99c782476ead93f",
     "packages": [
         {
             "name": "acquia/blt",
@@ -3979,6 +3979,65 @@
                 "source": "http://cgit.drupalcode.org/entity_embed",
                 "issues": "https://www.drupal.org/project/issues/entity_embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
+            }
+        },
+        {
+            "name": "drupal/entityqueue",
+            "version": "1.0.0-alpha7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entityqueue",
+                "reference": "8.x-1.0-alpha7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entityqueue-8.x-1.0-alpha7.zip",
+                "reference": "8.x-1.0-alpha7",
+                "shasum": "d3cf4c655c2af08b2018af8675db54319fce29d8"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha7",
+                    "datestamp": "1506839344",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "amateescu",
+                    "homepage": "https://www.drupal.org/user/729614"
+                },
+                {
+                    "name": "jojonaloha",
+                    "homepage": "https://www.drupal.org/user/1579186"
+                },
+                {
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
+                },
+                {
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
+                }
+            ],
+            "description": "Allows users to collect entities in arbitrarily ordered lists.",
+            "homepage": "https://www.drupal.org/project/entityqueue",
+            "support": {
+                "source": "http://cgit.drupalcode.org/entityqueue"
             }
         },
         {
@@ -13851,20 +13910,21 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/memcache": 20,
-        "drupal/google_analytics": 0,
-        "drupal/components": 0,
-        "drupal/twig_xdebug": 20,
         "drupal-composer/drupal-security-advisories": 20,
-        "roave/security-advisories": 20,
+        "drupal/better_exposed_filters": 15,
         "drupal/captcha": 20,
+        "drupal/components": 0,
+        "drupal/context": 10,
+        "drupal/entityqueue": 15,
+        "drupal/field_permissions": 20,
+        "drupal/google_analytics": 0,
+        "drupal/memcache": 20,
+        "drupal/r4032login": 20,
         "drupal/recaptcha": 20,
+        "drupal/twig_xdebug": 20,
         "drupal/webform": 10,
         "drupal/webform_views": 20,
-        "drupal/r4032login": 20,
-        "drupal/field_permissions": 20,
-        "drupal/better_exposed_filters": 15,
-        "drupal/context": 10
+        "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -33,6 +33,7 @@ module:
   entity_browser: 0
   entity_embed: 0
   entity_reference: 0
+  entityqueue: 0
   environment_indicator: 0
   extlink: 0
   field: 0
@@ -48,6 +49,7 @@ module:
   honeypot: 0
   image: 0
   inline_entity_form: 0
+  kint: 0
   layout_discovery: 0
   lightning: 0
   lightning_core: 0
